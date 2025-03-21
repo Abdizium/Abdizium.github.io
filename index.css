@@ -1,30 +1,32 @@
-/* style.css */
 body {
-  background-image: url('hcker.jpg'); /* image-in folder */
-  background-size: cover; /* Ensures the image covers the entire screen */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  margin: 0; /* Removes any margin */
-  height: 100vh; /* Makes the body take up the full height of the screen */
-  color: white; /* Makes the text white for better contrast */
-  font-family: Arial, sans-serif; /* Sets a clean font */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: white;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
 }
 
 h1, h2, nav {
-  text-align: center; /* Centers the header and navigation */
+  text-align: center;
 }
 
 ul {
-  list-style: none; /* Removes bullet points from the navigation */
+  list-style: none;
+  padding: 0;
+  text-align: center;
 }
 
 li {
-  display: inline-block; /* Makes the navigation items appear horizontally */
-  margin: 10px; /* Adds some space between navigation items */
+  display: inline-block;
+  margin: 10px;
 }
 
 a {
-  color: white; /* Makes the navigation text white */
-  text-decoration: none; /* Removes the underline */
-  font-size: 20px; /* Increases the font size of the links */
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
