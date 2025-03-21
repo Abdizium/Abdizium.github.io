@@ -3,11 +3,26 @@ body {
   font-family: Arial, sans-serif;
   background-color: #000;
   color: white;
+  background-image: url('hcker.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .hero-image img {
   width: 100%;
   height: auto;
+}
+
+header {
+  background-image: url('hcker.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1, h2, nav {
